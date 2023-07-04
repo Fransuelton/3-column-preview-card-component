@@ -1,0 +1,8 @@
+:root {
+    --sedans-area: hsl(31, 77%, 52%);
+    --suvs-area: hsl(184, 100%, 22%);
+    --luxury-area: hsl(179, 100%, 13%);
+
+    --transparent-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --background-headings-buttons: hsl(0, 0%, 95%);
+}
