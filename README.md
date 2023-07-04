@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - 3 column preview card component solution
 
 ![](design/desktop-design.jpg)
 
@@ -17,9 +17,9 @@ Como este projeto é voltado para estudos, foquei exclusivamente na responsivida
 
 ### 🔗 Links 
 
-- [Solução no Frontend Mentor]()
+- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-flexbox-NaaZQhBnbl)
 
-- [Deployment no Github Pages]()
+- [Deployment no Github Pages](https://fransuelton.github.io/3-column-preview-card-component/)
 
 ### ✨ Tecnologias Utilziadas
 
