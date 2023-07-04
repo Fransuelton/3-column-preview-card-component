@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .container {
+        height: 100%;
+    }
+
+    .columns {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .description {
+        margin-right: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .sedans.area {
+        border-radius: 0;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .luxury.area {
+        border-radius: 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
