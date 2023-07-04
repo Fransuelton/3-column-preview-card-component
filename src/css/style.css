@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-headings-buttons);
+    height: 100vh;
+}
+
+.columns {
+    display: flex;
+}
+
+.icon {
+    width: 5rem;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    width: 30rem;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3.5rem;
+    padding: 3rem 0;
+    text-transform: uppercase;
+    color: var(--background-headings-buttons);
+}
+
+.description {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    padding-bottom: 8rem;
+    line-height: 2.5rem;
+    color: var(--transparent-paragraphs);
+}
+
+.sedans.area {
+    background-color: var(--sedans-area);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.sedans .btn {
+    color: var(--sedans-area);
+}
+
+.suvs {
+    background-color: var(--suvs-area);
+}
+
+.suvs .btn {
+    color: var(--suvs-area);
+}
+
+.luxury.area {
+    background-color: var(--luxury-area);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.luxury .btn {
+    color: var(--luxury-area);
+}
+
+.btn {
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;
+    background-color: var(--background-headings-buttons);
+    border: 1px solid var(--background-headings-buttons);
+    width: 13rem;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--background-headings-buttons);
+}
